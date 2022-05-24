@@ -7,6 +7,9 @@ header{
 body{
     font-family:  Arial, sans-serif;
 }
+.padding{
+    padding: 2rem 0;
+}
 /*HEADER-TOP*/
 .top-header{
     width: 100%;
@@ -128,10 +131,13 @@ body{
     border-radius: 20px;
     font-weight: bold;
 }
+.btn_orange:hover{
+    color: white;
+}
 /*card-2-game*/
 .game{
-    text-align: center;
     padding: 2rem 0;
+    text-align: center;
 }
 .img-container{
     height: 150px;
@@ -156,6 +162,22 @@ body{
     font-size: 20px;
     margin-top: 20px;
 }
+/*Console 5*/
+.bnt_blue{
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.bnt_blue:hover{
+   color: white;
+}
+.playcontainer img{
+    width: 100%;
+}
+
 /*sm*/
 @media screen and (min-width:576px) {
    .top-header img{
