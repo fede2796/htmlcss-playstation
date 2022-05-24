@@ -1,10 +1,11 @@
 header{
     font-family: Helvetica, arial, sans-serif;
-    
+    width: 100%;
+    top: 0;
+    overflow: hidden;
 }
 body{
     font-family:  Arial, sans-serif;
-    
 }
 /*HEADER-TOP*/
 .top-header{
@@ -26,7 +27,7 @@ body{
     background-color: lightgrey;
     text-align: right;
     display: flex;
-    position: relative;
+   position: relative;
 }
 .bot-header img{
     left: 3%;
