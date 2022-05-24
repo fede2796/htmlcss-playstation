@@ -146,6 +146,16 @@ body{
 .img-thumbnail{
     border-color: blue;
 }
+/*No Limits*/
+.blue{
+    color: blue;
+    font-weight: bold;
+}
+.grey{
+    color: gray;
+    font-size: 20px;
+    margin-top: 20px;
+}
 /*sm*/
 @media screen and (min-width:576px) {
    .top-header img{
