@@ -1,8 +1,10 @@
 header{
     font-family: Helvetica, arial, sans-serif;
+    
 }
 body{
     font-family:  Arial, sans-serif;
+    
 }
 /*HEADER-TOP*/
 .top-header{
@@ -93,7 +95,38 @@ body{
 .burger a {
     color: black;
 }
-
+/*Jambotron*/
+.jambotron{
+    background-image: url("../img/jumbo-bg.png");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative; 
+}
+.text{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+}
+.text img{
+    width: 60%;
+    margin-bottom: 40px;
+}
+.text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.btn_orange{
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    font-weight: bold;
+}
 /*sm*/
 @media screen and (min-width:576px) {
    .top-header img{
@@ -121,7 +154,7 @@ body{
     }
 }
 /*xxl*/
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
     .top-header img{
         width: 5%;
         right: 1%;
@@ -134,5 +167,9 @@ body{
     }
     .burger{
         display: none;
+    }
+    .text{
+        text-align:left;
+        width: 30%;
     }
 }
