@@ -9,31 +9,32 @@ body{
     width: 100%;
     height: 40px;
     background-color: black;
-    position: relative;
+    text-align: right;
 }
 .top-header img{
     width: 20%;
     right: 3%;
     top: 30%;
-    position: absolute;
+    
 }
 /*Bottom-Header*/
 .bot-header{
     width: 100%;
     height: 70px;
     background-color: lightgrey;
-    position: relative;
+    text-align: right;
     display: flex;
+    position: relative;
 }
 .bot-header img{
     left: 3%;
     top: 20%;
-    position: absolute;
+    
 }
 /*list*/
 .list{
-    margin-left: 2rem;
-    width: 80%;
+    margin-left: 0;
+    width: 70%;
     display: none;
 }
 .list ul{
@@ -86,8 +87,8 @@ body{
    border-radius: 5px;
 }
 .burger i{
-    padding-left: 0.8rem;
-    padding-top: 0.7rem;
+    padding-right: 0.8rem;
+    padding-top: 0.8rem;
 }
 .burger a {
     color: black;
