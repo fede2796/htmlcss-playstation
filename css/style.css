@@ -195,7 +195,31 @@ body{
     color: lightgrey;
     display: none;
 }
-
+/*Takes Two*/
+.takestwo{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative; 
+}
+.texttwo{
+    padding-top: 80px;
+}
+.texttwo img{
+    width: 50%;
+}
+.texttwo h1{
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.texttwo p{
+    color: white;
+    font-weight: bold;
+}
 /*sm*/
 @media screen and (min-width:576px) {
    .top-header img{
@@ -275,5 +299,11 @@ body{
     .card-playstation{
         vertical-align: middle;
         padding-top: 200px;
+    }
+    .texttwo{
+        width: 40%;
+    }
+    .texttwo img{
+        width: 50%;
     }
 }
