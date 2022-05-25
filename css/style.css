@@ -323,6 +323,20 @@ body{
 .now .bnt_gray{
     color: black;
 }
+/*Media*/
+.media{
+    text-align: center;
+    padding: 2rem 0;
+}
+.media .media-container{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: none;
+}
+.media .media-container img{
+    width: 100%;
+}
 
 /*sm*/
 @media screen and (min-width:576px) {
@@ -350,6 +364,10 @@ body{
     .entry h3{
         display: block;
         font-size: 25px;
+    }
+    .media .media-container{
+        height: 120px;
+        width: 120px;
     }
 }
 /*md*/
@@ -413,8 +431,12 @@ body{
    .bnt_gray{
        width: 70%;
    }
-  
-}
+   .media .media-container{
+    height: 150px;
+    width: 150px;
+    }
+   
+   
 /*xxl*/
 @media screen and (min-width: 1200px) {
     .top-header img{
@@ -466,5 +488,9 @@ body{
     }
     .bnt_gray{
         width: 50%;
+    }
+    .media .media-container{
+        height: 250px;
+        width: 250px;
     }
 }
