@@ -213,6 +213,10 @@ body{
         width: 220px;
         margin-bottom: 20px;
     }
+    .card-playstation{
+        vertical-align: middle;
+        padding-top: 3rem;
+    }
 }
 /*xxl*/
 @media screen and (min-width: 1200px) {
@@ -236,5 +240,9 @@ body{
     .img-container{
         height: 100px;
         width: 160px;
+    }
+    .card-playstation{
+        vertical-align: middle;
+        padding-top: 200px;
     }
 }
