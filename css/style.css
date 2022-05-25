@@ -177,6 +177,24 @@ body{
 .playcontainer img{
     width: 100%;
 }
+/*Play Accessories*/
+.card-bottom img{
+    width: 100%;
+}
+.card-bottom{
+    border-bottom: 1px solid green;
+}
+.card-bottom h3{
+    display: none;
+}
+.opacity img{
+    width: 100%;
+    opacity: 0.7;
+}
+.opacity h3{
+    color: lightgrey;
+    display: none;
+}
 
 /*sm*/
 @media screen and (min-width:576px) {
@@ -217,6 +235,19 @@ body{
         vertical-align: middle;
         padding-top: 3rem;
     }
+    .card-bottom h3{
+        display: block;
+        font-size: 15px;
+    }
+    .opacity h3{
+        color: lightgrey;
+        display: block;
+        font-size: 15px;
+    }
+   .column{
+       background-color: red;
+       margin-right: 2rem;
+   }
 }
 /*xxl*/
 @media screen and (min-width: 1200px) {
