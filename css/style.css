@@ -244,6 +244,69 @@ body{
     color: white;
     font-size: 17px;
 }
+/*Playfour*/
+.playfour span {
+    font-size: 15px;
+    height: 50px;
+    vertical-align: text-top;
+}
+.playfour h1{
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.playfour p{
+    color: lightgray;
+    text-align: center;
+    font-size: 25px;
+}
+.card{
+    border: none;
+    padding-top: 2rem;
+}
+.card p{
+    text-align: left;
+}
+.card .bnt_blue{
+    width: 30%;
+}
+.card h2{
+    font-weight: bold;
+}
+.p-two{
+    padding-top: 0;
+    font-size: 10px;
+}
+/*Playstation Plus*/
+.grayplus{
+    background-color: grey;
+    
+}
+.playplus img{
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.playplus p{
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.bnt_gray{
+    background-color: white;
+    color: blue;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 30%;
+}
+.plus{
+    display: none;
+}
+.plus{
+    width: 100%;
+    height: 100%;
+}
+
+
 /*sm*/
 @media screen and (min-width:576px) {
    .top-header img{
@@ -306,6 +369,34 @@ body{
        background-color: red;
        margin-right: 2rem;
    }
+   .playfour p{
+       font-size: 32px;
+   }
+   .card .bnt_blue{
+        width: 60%;
+   }
+   .card h2{
+        font-weight: bold;
+        font-size: 35px;
+   }
+   .playfour .card p{
+       font-size: 20px;
+   }
+   .playplus img{
+       width: 60%;
+       padding-top: 1rem;
+   }
+   .plus{
+       display: block;
+   }
+   .plus img{
+     width: 100%;
+     height: 100%;
+   }
+   .bnt_gray{
+       width: 70%;
+   }
+  
 }
 /*xxl*/
 @media screen and (min-width: 1200px) {
@@ -346,5 +437,17 @@ body{
     .entry .img-container{
         height: 150px;
         width: 150px;
+    }
+    .playfour p{
+        font-size: 20px;
+    }
+    .card .card p{
+        font-size: 20px;
+    }
+    .playplus img{
+        padding-top: 8rem;
+    }
+    .bnt_gray{
+        width: 50%;
     }
 }
