@@ -220,6 +220,30 @@ body{
     color: white;
     font-weight: bold;
 }
+/*New Entry*/
+.entry{
+    background-color: black;
+    padding-top: 2rem;
+}
+.entry h1{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: none;
+}
+.entry h3{
+    color: white;
+    font-size: 27px;
+    margin-bottom: 20px;
+    display: none;
+}
+.entry .img-container{
+    height: 250px;
+}
+.entry h4{
+    color: white;
+    font-size: 17px;
+}
 /*sm*/
 @media screen and (min-width:576px) {
    .top-header img{
@@ -236,7 +260,17 @@ body{
     height: 100px;
     width: 150px;
     margin-bottom: 20px;
-}
+    }
+    .entry .img-container{
+        height: 200px;
+    }
+    .entry h1{
+        display: block;
+    }
+    .entry h3{
+        display: block;
+        font-size: 25px;
+    }
 }
 /*md*/
 @media screen and (min-width: 768px) {
@@ -305,5 +339,12 @@ body{
     }
     .texttwo img{
         width: 50%;
+    }
+    .entry{
+        padding-bottom: 2rem;
+    }
+    .entry .img-container{
+        height: 150px;
+        width: 150px;
     }
 }
