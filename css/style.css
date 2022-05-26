@@ -211,12 +211,13 @@ body{
     width: 100%;
     opacity: 0.5;
 }
-.opacity h3{
+.playacc .opacity h3{
     color: black;
     display: none;
 }
 .firstcard{
-    border-bottom: 2px solid #0072ce; 
+    border-bottom: 2px solid #0072ce;
+    padding-left: 1rem; 
 }
 .firstcard img{
     opacity: 1;
@@ -483,9 +484,13 @@ footer a{
     .firstcard{
         border-bottom: none;
     }
-    .card-bottom h3{
+    .playacc .opacity h3{
         display: block;
-        font-size: 15px;
+        font-size: 20px;
+        opacity: 0.5;
+    }
+    #black{
+        opacity: 1;
     }
     .opacity{
         height: 110px;
