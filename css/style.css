@@ -77,18 +77,13 @@ body{
     margin-top: -0.5rem;
     
 }
-.bordinside{
-    border: 1px solid white;
-    border-radius: 20px;
-    background-color: red;
+.btn_black:hover{
+   outline-offset: -3px;
+   outline: 2px solid white;
 }
 .btn:hover{
     transition: none;
     color: white;
-}
-.btn .btn_black span{
-   width: 100%;
-   padding: 2rem;
 }
 
 .lens{
@@ -154,6 +149,8 @@ body{
 }
 .btn_orange:hover{
     color: white;
+    outline-offset: -3px;
+    outline: 2px solid black;
 }
 /*card-2-game*/
 .game{
@@ -198,6 +195,8 @@ body{
 }
 .bnt_blue:hover{
    color: white;
+   outline-offset: -3px;
+   outline: 2px solid white;
 }
 .playcontainer img{
     width: 100%;
@@ -217,8 +216,8 @@ body{
 }
 .playacc img{
     width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 .opacity h3{
     display: none;
@@ -232,6 +231,9 @@ body{
 .opacity img{
     width: 100%;
     opacity: 0.5;
+}
+.opacity:hover img{
+    opacity: 1;
 }
 .playacc .opacity h3{
     color: black;
@@ -313,7 +315,7 @@ body{
     font-weight: bold;
 }
 .playfour p{
-    color: lightgray;
+    color: #727272 ;
     text-align: center;
     font-size: 25px;
 }
@@ -358,6 +360,11 @@ body{
     width: 40%;
     font-weight: bold;
 }
+.bnt_gray:hover{
+    color: #2d64e6 ;
+    outline-offset: -3px;
+    outline: 2px solid black;
+}
 .plus{
     display: none;
 }
@@ -369,6 +376,13 @@ body{
 .sconti{
     text-align: center;
     padding: 2rem 0;
+}
+.sconti p{
+    font-weight: bold;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    color: #727272;
+    font-size: 20px;
 }
 /*Now*/
 .now{
@@ -542,6 +556,9 @@ footer a{
    .playfour p{
        font-size: 32px;
    }
+   .playfour .card .bnt_blue{
+       width: 70%;
+   }
    .card .bnt_blue{
         width: 60%;
    }
@@ -667,5 +684,8 @@ footer a{
     }
     .media .card img{
         width: 50%;
+    }
+    .playfour .card .bnt_blue{
+        width: 40%;
     }
 }
