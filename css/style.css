@@ -337,7 +337,48 @@ body{
 .media .media-container img{
     width: 100%;
 }
-
+/*Footer*/
+footer{
+    background-color: lightblue;
+    padding-top: 3rem;
+}
+.playlogo img{
+    width: 20%;
+}
+footer span{
+    color: white;
+}
+.language{
+    padding-top: 2rem;
+}
+.language img{
+    width: 5%;
+}
+.language span{
+    margin-left: 1rem;
+}
+footer ul{
+    list-style: none;
+    padding-top: 1rem;
+}
+footer li{
+    padding-top: 0.5rem;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.sielogo{
+    width: 25%;
+    padding-top: 2rem;
+}
+#p{
+    color: white;
+    font-weight: bold;
+}
+#p a{
+    text-decoration:underline;
+}
 /*sm*/
 @media screen and (min-width:576px) {
    .top-header img{
@@ -435,10 +476,15 @@ body{
     height: 150px;
     width: 150px;
     }
-   
+    .listul{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
    
 /*xxl*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
     .top-header img{
         width: 5%;
         right: 1%;
@@ -490,7 +536,11 @@ body{
         width: 50%;
     }
     .media .media-container{
-        height: 250px;
-        width: 250px;
+        height: 150px;
+        width: 150px;
+    }
+    .media-container img{
+        display: inline-block;
+        text-align: center;
     }
 }
