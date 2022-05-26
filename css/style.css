@@ -21,14 +21,13 @@ body{
 .top-header img{
     width: 20%;
     right: 3%;
-    top: 30%;
-    
+    top: 50%;   
 }
 /*Bottom-Header*/
 .bot-header{
     width: 100%;
     height: 70px;
-    background-color: lightgrey;
+    background-color: #fff;
     text-align: right;
     display: flex;
    position: relative;
@@ -36,8 +35,7 @@ body{
 }
 .bot-header img{
     left: 3%;
-    top: 20%;
-    
+    top: 20%;  
 }
 /*list*/
 .list{
@@ -94,10 +92,12 @@ body{
    top: 1rem;
    right: 1rem;
    border-radius: 5px;
+   border: 1px solid #e5e5e5;
 }
 .burger i{
     padding-right: 0.8rem;
-    padding-top: 0.8rem;
+    padding-top: 0.6rem;
+    color: #737373 ;
 }
 .burger a {
     color: black;
@@ -184,18 +184,24 @@ body{
 .accessories{
     padding-bottom: 4rem;
 }
-.card-bottom img{
+.playacc{
+    padding-top: 2rem;
     width: 100%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 1rem;
+    text-align: center;
 }
-.card-bottom{
-    border-bottom: 2px solid #0072ce;
-    height: 150px;
-    width: 150px;
-    
+.playacc img{
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
-.card-bottom h3{
+.opacity h3{
     display: none;
     padding-bottom: 2rem;
+    font-weight: 20px;
 }
 .opacity{
     height: 150px;
@@ -203,13 +209,26 @@ body{
 }
 .opacity img{
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 .opacity h3{
-    color: lightgrey;
+    color: black;
     display: none;
 }
-
+.firstcard{
+    border-bottom: 2px solid #0072ce; 
+}
+.firstcard img{
+    opacity: 1;
+}
+.firstcard h3{
+    border-bottom: 2px solid #0072ce;
+    padding-bottom: 3rem;
+}
+#black{
+    color: black;
+    font-size: 20px;
+}
 /*Takes Two*/
 .takestwo{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -461,15 +480,28 @@ footer a{
         vertical-align: middle;
         padding-top: 3rem;
     }
-    
+    .firstcard{
+        border-bottom: none;
+    }
     .card-bottom h3{
         display: block;
         font-size: 15px;
+    }
+    .opacity{
+        height: 110px;
+        width: 110px;
+        margin-right: 1.5rem;
+    }
+    .playacc img{
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
     .opacity h3{
         color: lightgrey;
         display: block;
         font-size: 15px;
+        margin-top: 2rem;
     }
    .column{
        background-color: red;
@@ -562,6 +594,11 @@ footer a{
         width: 200px;
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    .opacity{
+        height: 200px;
+        width: 200px;
+        margin-right: 1.4rem;
     }
     .texttwo{
         width: 40%;
