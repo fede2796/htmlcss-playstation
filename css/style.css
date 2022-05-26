@@ -2,7 +2,8 @@ header{
     font-family: Helvetica, arial, sans-serif;
     width: 100%;
     top: 0;
-    overflow: hidden;
+    position: fixed;
+    z-index: 1;
 }
 body{
     font-family:  Arial, sans-serif;
@@ -31,6 +32,7 @@ body{
     text-align: right;
     display: flex;
    position: relative;
+
 }
 .bot-header img{
     left: 3%;
@@ -62,6 +64,7 @@ body{
 .right-list{
     width: 30%;
     display: none;
+    text-align: right;
 }
 .btn_black{
     background-color: black;
@@ -102,7 +105,7 @@ body{
 /*Jambotron*/
 .jambotron{
     background-image: url("../img/jumbo-bg.png");
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -126,8 +129,8 @@ body{
     margin-bottom: 20px;
 }
 .btn_orange{
-    background-color: orange;
-    border: 1px solid orange;
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
     border-radius: 20px;
     font-weight: bold;
 }
@@ -164,8 +167,8 @@ body{
 }
 /*Console 5*/
 .bnt_blue{
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: #2d64e6;
+    border: 1px solid #2d64e6;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -178,14 +181,25 @@ body{
     width: 100%;
 }
 /*Play Accessories*/
+.accessories{
+    padding-bottom: 4rem;
+}
 .card-bottom img{
     width: 100%;
 }
 .card-bottom{
-    border-bottom: 1px solid green;
+    border-bottom: 2px solid #0072ce;
+    height: 150px;
+    width: 150px;
+    
 }
 .card-bottom h3{
     display: none;
+    padding-bottom: 2rem;
+}
+.opacity{
+    height: 150px;
+    width: 150px;
 }
 .opacity img{
     width: 100%;
@@ -195,6 +209,7 @@ body{
     color: lightgrey;
     display: none;
 }
+
 /*Takes Two*/
 .takestwo{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -260,17 +275,17 @@ body{
     text-align: center;
     font-size: 25px;
 }
-.card{
+.playfour .card{
     border: none;
     padding-top: 2rem;
 }
-.card p{
+.playfour .card p{
     text-align: left;
 }
-.card .bnt_blue{
+.playfour .card .bnt_blue{
     width: 30%;
 }
-.card h2{
+.playfour .card h2{
     font-weight: bold;
 }
 .p-two{
@@ -296,10 +311,11 @@ body{
 }
 .bnt_gray{
     background-color: white;
-    color: blue;
+    color: #2d64e6;
     border: 1px solid white;
     border-radius: 20px;
     width: 40%;
+    font-weight: bold;
 }
 .plus{
     display: none;
@@ -328,14 +344,20 @@ body{
     text-align: center;
     padding: 2rem 0;
 }
-.media .media-container{
-    height: 250px;
-    width: 250px;
-    margin-top: 20px;
-    border-radius: none;
+.social{
+    padding-top: 3rem;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 1rem;
+    text-align: center;
 }
-.media .media-container img{
+
+.social img{
     width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 /*Footer*/
 footer{
@@ -406,9 +428,16 @@ footer a{
         display: block;
         font-size: 25px;
     }
-    .media .media-container{
-        height: 120px;
-        width: 120px;
+    .bnt_gray{
+        width: 60%;
+    }
+    .social{
+        padding-top: 2rem;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
     }
 }
 /*md*/
@@ -432,6 +461,7 @@ footer a{
         vertical-align: middle;
         padding-top: 3rem;
     }
+    
     .card-bottom h3{
         display: block;
         font-size: 15px;
@@ -472,9 +502,18 @@ footer a{
    .bnt_gray{
        width: 70%;
    }
-   .media .media-container{
-    height: 150px;
-    width: 150px;
+   .social{
+        padding-top: 2rem;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .imgsocial{
+        width: 150px;
+        height: 1590px;
+        text-align: center;
     }
     .listul{
         display: flex;
@@ -494,6 +533,10 @@ footer a{
     }
     .list{
         display: block;
+        width: 70%;
+    }
+    .right-list{
+        width: 30%;
     }
     .burger{
         display: none;
@@ -509,6 +552,16 @@ footer a{
     .card-playstation{
         vertical-align: middle;
         padding-top: 200px;
+    }
+    .card-bottom{
+        height: 300px;
+        width: 200px;
+    }
+    .opacity{
+        height: 300px;
+        width: 200px;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .texttwo{
         width: 40%;
@@ -539,8 +592,11 @@ footer a{
         height: 150px;
         width: 150px;
     }
-    .media-container img{
+    .media .card{
         display: inline-block;
         text-align: center;
+    }
+    .media .card img{
+        width: 50%;
     }
 }
